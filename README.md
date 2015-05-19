@@ -12,7 +12,7 @@ Iterative Small Variant Discovery Algorithm
 3. make
 
 # Usage:
-**Quick Usage 1: **
+**Quick Usage : **
 (This requires samtools, bwa and freebayes in PATH, i.e. you can directly run samtools, bwa and freebayes.)
 
 ```
