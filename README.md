@@ -10,6 +10,7 @@ Iterative Small Variant Discovery Algorithm
 1. Download repositories
 2. cd isvda
 3. make
+
 # Usage:
 **Quick Usage 1: **
 (This requires samtools, bwa and freebayes in PATH, i.e. you can directly run samtools, bwa and freebayes.)
