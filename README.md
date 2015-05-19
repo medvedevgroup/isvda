@@ -23,5 +23,5 @@ python isvda.py -r whole_genome.fa -p 1.fastq 2.fastq -i 6 -w workspace_director
 **Detail Usage:**
 
 ```
-
+python isvda.py -h
 ```
