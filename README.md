@@ -6,6 +6,7 @@ Iterative Small Variant Discovery Algorithm
 - SAMtools
 - BWA/Bowtie2
 - Freebayes
+
 # Installation
 1. Download repositories
 2. cd isvda
