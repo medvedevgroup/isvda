@@ -17,7 +17,7 @@ import time
 
 citation = "Please cite our paper."
 
-DEBUG = True
+DEBUG = False
 RUN = True
 
 def shell_run(command):
@@ -60,7 +60,7 @@ parser.add_argument('--bowtie', default='bowtie2', help = 'bowtie2 program path'
 parser.add_argument('--bindex', default='bowtie2-build', help = 'bowtie2-build program path')
 parser.add_argument('--samtools', default='samtools', help = 'samtools program path')
 parser.add_argument('--python', default='python', help = 'python program path')
-parser.add_argument('--parallel_freebayes', default='/gpfs/home/cxs1031/src/freebayes/scripts/', help = 'parallel freebayes directory')
+parser.add_argument('--parallel_freebayes', required=not DEBUG, default='/gpfs/home/cxs1031/src/freebayes/scripts/', help = 'parallel freebayes directory')
 parser.add_argument('--freebayes', default='freebayes', help = 'sequential freebayes program path')
 parser.add_argument('-g', '--whole_genome', help='activate whole genome analysis, use when you have multi chromosome', action='store_true')
 args = parser.parse_args()  
