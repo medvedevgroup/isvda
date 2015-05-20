@@ -5,7 +5,7 @@ Iterative Small Variant Discovery Algorithm
 - g++
 - SAMtools
 - BWA/Bowtie2
-- Freebayes
+- Freebayes (To get use of multi-thread mode of isvda, parallel version of Freebayes must be installed: https://github.com/ekg/freebayes/blob/master/scripts/freebayes-parallel)
 
 # Installation
 1. Download repositories
