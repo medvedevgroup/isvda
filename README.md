@@ -13,8 +13,8 @@ Iterative Small Variant Discovery Algorithm
 3. make
 
 # Usage:
-**Quick Usage :**
-(This requires samtools, bwa and freebayes in PATH, i.e. you can directly run samtools, bwa and freebayes.)
+**Multithreading Mode Quick Usage :**
+(This requires samtools and bwa in PATH, i.e. you can directly run samtools and bwa. This also need freebayes-parallel directory indicated correctly.)
 
 ```
 python isvda.py -r whole_genome.fa -p 1.fastq 2.fastq -i 6 -w workspace_directory -t 8 -g --parallel_freebayes=parallel_freebayes_directory
